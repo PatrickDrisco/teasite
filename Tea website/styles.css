@@ -1,0 +1,85 @@
+* {
+    font-family: helvetica;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    text-align: center;
+
+}
+
+.logopic {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 65%;
+
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    opacity: 0.9;
+    padding-top: 0%;
+}
+.navcont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.navbox {
+    display: flex;
+    padding-right: 10px;
+    justify-content: center;
+    height: 69px;
+    align-items: center;
+
+}
+.bannerbox {
+    background-image: url("img-mission-background.jpeg");
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+    
+
+}
+.mission {
+    background-color: black;
+    width: 1200px;
+}
+
+.allcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.totmcont {
+    width: 1000px;
+    
+}
+.teabox img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 0;
+    padding: 0 5px;
+
+}
+.teatype {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.teabox p {
+    margin-top: 5px;
+}
+#berry {
+    background-image: url("img-berryblitz.jpeg");
+
+}
